@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    
+}
+#header {
+    background-color: #EDEDED;
+    width: 100%;
+    height: 35px;
+    border-top:solid 1px grey;
+    border-bottom: solid 1px grey;
+    
+}
+@media screen and (max-width: 1000px) {
+    #button {display: contents}
+    
+}
+.active {
+    background-color: #F5F9FF;
+}
+.highlightedbtn {
+    background-color: grey;
+}
+
+
+#button {
+    width: 290px;
+    margin: 0 auto;
+}
+.togglebtn {
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 5px;
+    float: left;
+    padding: 3px;
+    margin-top: 3px;
+    
+}
+.brand {
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+}
+/*styling text area*/
+
+textarea {
+    resize: none;
+    border-top: none;
+    
+}
+.panel{
+   width: 50%;
+    float: left;
+}
+iframe {
+    
+    border-top: none;
+}
+.hidden {
+    display: none;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
